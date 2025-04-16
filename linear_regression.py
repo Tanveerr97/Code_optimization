@@ -11,6 +11,8 @@ y = np.array([1000, 1500, 2000, 2500, 3000])  # target (salary)
 model = LinearRegression()
 model.fit(x, y)
 
+# this is new code 
+
 # Get parameters
 slope = model.coef_[0]
 intercept = model.intercept_
